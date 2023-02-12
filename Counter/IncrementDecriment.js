@@ -15,9 +15,17 @@ function App() {
   };
   return (
     <div>
+      <h1>Onclick</h1>
       <button onClick={increment}>+</button>
       <p>{counter}</p>
       <button onClick={decrement}>-</button>
+      <br />
+      <br />
+
+      <h1>OnMouseEnter</h1>
+      <button onMouseEnter={increment}>+</button>
+      <p>{counter}</p>
+      <button onMouseEnter={decrement}>-</button>
     </div>
   );
 }
